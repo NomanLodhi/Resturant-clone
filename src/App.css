@@ -1,0 +1,87 @@
+.bg-nav{
+  background-color: #ddb9a6 !important;
+}
+.w-line{
+  width: 2px;
+  height: 100px;
+}
+.bg-content{
+  background-color: #ddb9a6 !important;
+}
+.bg-footer{
+  background-color: #9f8373 !important;
+}
+.li-foot{
+  list-style:none ;
+}
+.footer-links{
+  transition: 0.2s ease;
+}
+.footer-links:hover{
+  color: #E4A11B !important;
+}
+.card-hover{
+  background-color: #ddb9a6 !important;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.card-hover:hover{
+  background-color: #c49a84 !important;
+  transform: scale(1.03);
+}
+.text-wrap{
+  text-wrap: wrap;
+}
+.bg-section{
+  animation: backgroundChange 10s ease infinite;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: fixed;
+  height: 600px;
+}
+.ff-title{
+  font-family: 'Agbalumo';
+}
+.fs-sub{
+  font-size: 20px !important;
+  font-weight: bold;
+}
+.nav-item{
+  transition:all 0.3s ease;
+}
+.nav-item:hover{
+  transform: scale(1.2);
+}
+
+@keyframes  backgroundChange{
+  0%{
+background-image: url(./Pages/img/background-1.jpg);
+  }
+  50%{
+background-image: url(./Pages/img/background-2.jpg);
+  }
+  100%{
+background-image: url(./Pages/img/background-3.jpg);
+}
+}
+.bg-about-sec{
+  background-image: url(./Pages/img/background-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+  
+@media(max-width:982px){
+.w-reserve{
+  width: 100% !important;
+}
+.w-brand{
+  width: 100% !important;
+  align-items: start !important;
+}
+.position-toggle{
+position: relative;
+left: 85%;
+}
+}
